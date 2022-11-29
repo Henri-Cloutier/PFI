@@ -1,0 +1,42 @@
+.calendarContainer{
+}
+.title{
+    text-align: center;
+    font-size: 30px;
+}
+.months{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.month{
+    width: 250px;
+    border-radius: 10px;
+    border: solid 1px white;
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    height: 190px;
+}
+.monthTitle{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.daysOfWeek{
+    display: grid;
+    grid-template-columns: 30px 30px 30px 30px 30px 30px 30px ;
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
+.daysContainer{
+    display: grid;
+    grid-template-columns: 30px 30px 30px 30px 30px 30px 30px ;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-left: 15px;
+}

@@ -1,0 +1,14 @@
+.gridPhoto{
+    display: grid;
+    grid-template-columns: 300px 300px;
+    text-align: center;
+    justify-content: center;
+}
+.nom{
+    font-size: 30px;
+    margin-top: 80px;
+}
+.photo{
+    height: 200px;
+    border-radius: 100px;
+}
