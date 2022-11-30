@@ -1,10 +1,6 @@
 .calendarContainer{
     
 }
-.title{
-    text-align: center;
-    font-size: 30px;
-}
 .months{
     display: flex;
     flex-wrap: wrap;
@@ -40,4 +36,7 @@
     text-align: center;
     padding-bottom: 10px;
     padding-left: 15px;
+}
+.holiday{
+    color: yellow;
 }
