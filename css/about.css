@@ -29,3 +29,9 @@
     text-decoration: none;
     color: black;
 }
+
+@media screen and (max-width: 671px){
+    .github{
+        margin-left: 0px;
+    }
+}
