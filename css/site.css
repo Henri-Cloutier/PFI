@@ -34,10 +34,9 @@
 }
 .subtitle{
     margin-left: 80px;
-    font-family: Quicksand;
-    font-weight: bold;
-    font-size: 25px;
-    margin-bottom: 20px;
+    font-family: Bebas Neue;
+    font-size: 30px;
+    margin-bottom: 30px;
 }
 .text{
     margin-left: 120px;
@@ -46,4 +45,5 @@
     line-height: 40px;
     text-align: justify;
     width: 80%;
+    margin-bottom: 50px;
 }
