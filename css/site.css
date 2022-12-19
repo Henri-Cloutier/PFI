@@ -38,7 +38,7 @@
     font-size: 30px;
     margin-bottom: 30px;
 }
-.text{
+p{
     margin-left: 120px;
     font-size: 20px;
     font-family: Quicksand;
@@ -46,4 +46,9 @@
     text-align: justify;
     width: 80%;
     margin-bottom: 50px;
+}
+.source{
+    font-size: 15px;
+    color: rgb(108, 108, 108);
+    text-align: center;
 }
