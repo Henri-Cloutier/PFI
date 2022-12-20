@@ -52,3 +52,46 @@ p{
     color: rgb(108, 108, 108);
     text-align: center;
 }
+.imageCadreNormal{
+    display: flex;
+    flex-direction: row;
+}
+.image{
+    width: 400px;
+    margin-top: 20%;
+    margin-right: 100px;
+}
+.imageCadreReverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.imageReverse{
+    margin-left: 100px;
+    margin-top: 20%;
+    height: 250px;
+}
+.audioControl{
+    margin-left: 10%;
+    width: 500px;
+}
+.descriptionMusique{
+    font-size: 30px;
+    margin-left: 150px;
+    font-family: Bebas Neue;
+}
+
+@media screen and (max-width: 1200px){
+    .imageCadreNormal{
+        flex-direction: column;
+    }
+    .imageCadreReverse{
+        flex-direction: column;
+    }
+    .image{
+        margin-top: 0px;
+        margin-left: 30%;
+    }
+    .imageReverse{
+        margin-left: 25%;
+    }
+}
